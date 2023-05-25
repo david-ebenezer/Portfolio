@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+body{
+    font-family: 'Source Code Pro', monospace;
+    
+}
+a{
+    text-decoration: none;'
+
+}
+button{
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 10px;
+    padding: 0.35rem 0.35rem 0.35rem 0.35rem ;
+    color: #fff;
+    border-width: 10;
+}
+a:visited { 
+    text-decoration: none; 
+    color: #fff;
+   }
+.intro{
+    font-weight: 400;
+    margin: 0;
+    height: 750px;
+    padding: 3% 13%;
+    background: rgb(135,91,240);
+    background-color:hsla(257,0%,0%,1);
+    background-image:
+    radial-gradient(at 0% 55%, hsla(258,93%,67%,1) 0px, transparent 50%),
+    radial-gradient(at 70% 100%, hsla(258,93%,67%,1) 0px, transparent 40%),
+    radial-gradient(at 0% 75%, hsla(258,93%,67%,1) 0px, transparent 50%);    height: 900px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.david{
+    width: 37rem;
+
+}
+.intro-content{
+    display: flex;
+    justify-content: center;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+.right{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin: 0;
+    align-items: center;
+}
+
+i{
+    color: #ffffff;
+}
+.intro-text p{
+    color: #eba22e;
+}
+.intro-text h1{
+    width: 24rem;
+    color: #ffffff;
+    font-size: 3.9rem;
+    font-weight: 800;
+}
+.intro-text h4{
+    color: #fff;
+    font-weight: 400;
+}
+.intro-text{
+    padding: 15% 0% 20% 0%;
+    width: 130%;
+}
+.text-di {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: flex-end;
+  }
+.rigg{
+    font-size: 15px;
+}
+.skills-bg{
+    font-weight: 400;
+    margin: 0;
+    padding: 3% 10%;
+    background: rgb(135,91,240);
+    background-color:hsla(257,0%,0%,1);
+    background-image: radial-gradient(at 0% 55%, hsla(258,93%,67%,1) 0px, transparent 50%),
+    radial-gradient(at 70% 100%, hsla(258,93%,67%,1) 0px, transparent 40%),
+    radial-gradient(at 0% 75%, hsla(258,93%,67%,1) 0px, transparent 50%);
+height: 750px;
+transform: scaleY(-1);
+}
+.skill{
+    height: 900px;
+    transform: scaleY(-1);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.skillsimg{
+    height: 600px;
+}
+.project-bg{
+    font-weight: 400;
+    margin: 0;
+    height: 750px;
+    padding: 3% 13%;
+    background: rgb(135,91,240);
+    background-color:hsla(257,0%,0%,1);
+    background-image:
+    radial-gradient(at 0% 55%, hsla(258,93%,67%,1) 0px, transparent 50%),
+    radial-gradient(at 70% 100%, hsla(258,93%,67%,1) 0px, transparent 40%),
+    radial-gradient(at 0% 75%, hsla(258,93%,67%,1) 0px, transparent 50%);
+}
+.projects-content{
+    padding: 40;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.project{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #1d1d1d ;
+}
+.project i{
+    font-size: 40px;
+}
+.project:hover{
+    filter: drop-shadow( -3mm 3mm rgb(253,158,1));
+}
+.he{
+    height: 50px;
+}
